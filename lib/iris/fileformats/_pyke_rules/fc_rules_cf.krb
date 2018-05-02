@@ -1050,6 +1050,7 @@ fc_extras
     #
     CF_GRID_MAPPING_ALBERS = 'albers_conical_equal_area'
     CF_GRID_MAPPING_AZIMUTHAL = 'azimuthal_equidistant'
+    CF_GRID_MAPPING_GEOSTATIONARY = 'geostationary'
     CF_GRID_MAPPING_LAMBERT_AZIMUTHAL = 'lambert_azimuthal_equal_area'
     CF_GRID_MAPPING_LAMBERT_CONFORMAL = 'lambert_conformal_conic'
     CF_GRID_MAPPING_LAMBERT_CYLINDRICAL = 'lambert_cylindrical_equal_area'
@@ -1061,7 +1062,7 @@ fc_extras
     CF_GRID_MAPPING_STEREO = 'stereographic'
     CF_GRID_MAPPING_TRANSVERSE = 'transverse_mercator'
     CF_GRID_MAPPING_VERTICAL = 'vertical_perspective'
-    
+
     #
     # CF Attribute Names.
     #
@@ -1079,6 +1080,7 @@ fc_extras
     CF_ATTR_GRID_SEMI_MINOR_AXIS = 'semi_minor_axis'
     CF_ATTR_GRID_LAT_OF_PROJ_ORIGIN = 'latitude_of_projection_origin'
     CF_ATTR_GRID_LON_OF_PROJ_ORIGIN = 'longitude_of_projection_origin'
+    CF_ATTR_GRID_PERS_PNT_HEIGHT = 'perspective_point_height'
     CF_ATTR_GRID_STANDARD_PARALLEL = 'standard_parallel'
     CF_ATTR_GRID_FALSE_EASTING = 'false_easting'
     CF_ATTR_GRID_FALSE_NORTHING = 'false_northing'
